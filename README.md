@@ -4,7 +4,9 @@
 Build a model to predict Air Quality Index.
 
 Data Collection part 1 ----- collected the data from multiple sources.Retrive the HTML pages (from 2013 - 2018) using request library.
+
 Data Collection part 2 ----- HTML  WEB SCRAPING  using Beautiful soup.
+
 Data Collecton part 3 ------ Collected PM 2.5 particles with respect to all the data between 2013 - 2018(downloaded from weathermap.com)
 
 DATA PRE PROCESSING ----
