@@ -1,5 +1,10 @@
 # AIR_QUALITY_INDEX
-
+1.	Data Collection 
+2.	Feature Engineering
+3.	Feature Selection
+4.	Model Creation
+5.	Model Hyperparameter Tuning
+6.	Model Deployment using Cloud
 
 Built a model to predict Air Quality Index.
 
