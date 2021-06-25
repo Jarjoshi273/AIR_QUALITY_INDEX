@@ -11,17 +11,20 @@ To predict Air Quality Index based on weather condition of the city.
 '''Data is collected from multiple sources.  Retrieved HTML pages from 2013 – 2018 for each and every year and month using request library and Beautiful Soup and saved as Html_Data. These are independent variables. collected dependent variable (PM 2.5 particles) with respect to all the data between (2013- 2018) from third party.'''
 
 ###Data pre-processing
-'''Independent variable was present on hourly bases on the website. Calculated the average of PM2.5 per day.
-Data set was not clean; there were some values like No data, Invalid field and powerfail.  Handled these types of data.
-After preprocessing the data, Combined both dependent and independent variables saved as CSV file.'''
 
-###Model Training 
+Independent variable was present on hourly bases on the website. Calculated the average of PM2.5 per day.
+Data set was not clean; there were some values like No data, Invalid field and powerfail.  Handled these types of data.
+After preprocessing the data, Combined both dependent and independent variables saved as CSV file.
+
+###Model Training
+
 1) Data Export - The data stored as CSV file is used for model training.
 2) If any column has zero standard deviation, removed such columns as they don't give any information during model training.
 3)  The model is trained over preprocessed data and the model is saved for further use in prediction.
 4) Model Selection - Used two algorithms, "Random Forest" and "XGBoost".Both  algorithms are passed with the best parameters derived from GridSearch.Calculated the scores for both models and selected the model with the best score. 
 
 ###Deployment
+
 Deployed the model to the Heroku platform.
 
 
