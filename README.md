@@ -1,9 +1,11 @@
-# AIR_QUALITY_INDEX
+## AIR_QUALITY_INDEX
                                               Air Quality Index
 
 **Problem statement**
+
 **To predict Air Quality Index based on weather condition of the city**
-'''The air quality index (AQI) is a number used to report the quality of the air on any given day: it basically tells you how clean the air is. It measures particles and chemicals in the air that affect people's health (and ignores those that do not). An air quality index (AQI) is used by government agencies to communicate to the public how polluted the air currently is or how polluted it is forecast to become. Public health risks increase as the AQI rises. Different countries have their own air quality indices, corresponding to different national air quality standards. When the AQI level (air quality index) is below 50, people are breathing fresh, clean air. People are no longer exposed to any health risk because the quality of air is pure'''  
+
+The air quality index (AQI) is a number used to report the quality of the air on any given day: it basically tells you how clean the air is. It measures particles and chemicals in the air that affect people's health (and ignores those that do not). An air quality index (AQI) is used by government agencies to communicate to the public how polluted the air currently is or how polluted it is forecast to become. Public health risks increase as the AQI rises. Different countries have their own air quality indices, corresponding to different national air quality standards. When the AQI level (air quality index) is below 50, people are breathing fresh, clean air. People are no longer exposed to any health risk because the quality of air is pure'''  
 “PM2.5 is considered as the most important air pollution measuring unit.PM2.5 refers to particles that have diameter less than 2.5 micrometers (more than 100 times thinner than a human hair) and remain suspended for longer”.
 
 **Data Collection**
